@@ -1,4 +1,10 @@
-
 export default function Textarea() {
-  return <textarea className="textarea"/>;
+  return (
+    <textarea
+      onChange={() => {}}
+      className="textarea"
+      placeholder="Enter your text"
+      spellCheck="false"
+    />
+  );
 }
